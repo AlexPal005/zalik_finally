@@ -80,7 +80,7 @@ def decrypt(ciphertext, prime, private_key):
 
 # Example
 prime, generator, public_key, private_key = generate_keys()
-message = b"Hello, world!"
+message = b"test string"
 ciphertext = encrypt(message, prime, generator, public_key)
 decrypted_message = decrypt(ciphertext, prime, private_key)
 

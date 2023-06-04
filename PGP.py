@@ -39,7 +39,7 @@ public_key = key_pair.publickey()
 private_key = key_pair
 
 # Define the message
-message = "Hello, World!"
+message = "test string"
 
 # Hash the message
 hashed_message = hashlib.sha256(message.encode()).hexdigest()
